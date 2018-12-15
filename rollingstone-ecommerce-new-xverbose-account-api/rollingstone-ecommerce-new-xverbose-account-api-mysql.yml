@@ -10,11 +10,11 @@ spring:
     tomcat.max-idle: 20
     tomcat.min-idle: 15
     validationQuery: SELECT 1
-    jpa:
-      properties:
-        hibernate:
-          dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-          show-sql: true
-          format-sql: true
+  jpa:
+    properties:
       hibernate:
-        ddl-auto: create
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+         show-sql: true
+         format-sql: true
+    hibernate:
+      ddl-auto: create
