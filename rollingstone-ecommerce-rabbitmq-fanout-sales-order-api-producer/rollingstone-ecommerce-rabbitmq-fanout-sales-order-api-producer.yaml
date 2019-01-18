@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/rs_ecommerce
     username: root
-    password: @Mihome267
+    password: localroot
     tomcat.max-wait: 20000
     tomcat.max-active: 50
     tomcat.max-idle: 20
